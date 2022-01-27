@@ -1,14 +1,5 @@
 body{
-    background-color: rgb(96, 156, 247);
-}
-
-#container{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    border-style: solid;
-    border-color: navy;
-    border-width: 15px;
+    background-image:url('/Images/background.png');
 }
 
 h1{
@@ -18,12 +9,11 @@ h1{
     background-color: white;
 }
 
-#proPic {
+#proPic{
     text-align: center;
-    margin-top: 4px;
 }
+
 #conLinks{
-    margin: 10px;
     display: flex;
     background-color: white;
     border-style: solid;
@@ -37,7 +27,6 @@ h1{
     margin-right: 10px;
     width: 540px;
     display: flex;
-
 }
 
 .anchor{
@@ -47,6 +36,8 @@ h1{
 
 h2{
     color: navy;
+    border-style: solid;
+    background-color: white;
 }
 
 #table{
@@ -85,5 +76,5 @@ tr td{
 
 #submit{
     margin: auto;
-    margin-right: 5px;
+    margin-right: 20px;
 }
